@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DependencyCheck.Runner.Tool</id>
+    <version>3.2.1</version>
+    <title>DependencyCheck.Runner.Tool</title>
+    <authors>Burak İnce</authors>
+    <owners>Burak İnce,cake-contrib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/burakince/DependencyCheck.Runner.Tool/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/burakince/DependencyCheck.Runner.Tool</projectUrl>
+    <description>Nuget tool package for OWASP Dependency Check</description>
+    <summary>Contains the runner with version 3.2.1</summary>
+  </metadata>
+</package>
