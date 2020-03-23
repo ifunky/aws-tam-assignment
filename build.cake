@@ -17,6 +17,7 @@ var framework = Argument("framework", "netcoreap3.1");
 var target = Argument("target", "Default");
 var version = Argument("version", "0.0.0.0");
 var deployFolder = Argument("deployFolder", "");
+var sourceFolder = Argument("sourceFolder", "");
 
 ///////////////////////////////////////////////////////////////////////////////
 // GLOBAL VARIABLES
@@ -181,7 +182,7 @@ Task("Test-Security-BinSkim")
 Task("Deploy")
     .Does(() =>
     {
-        CopyDirectory(publishDir, deployFolder);
+        CopyDirectory(sourceFolder, deployFolder);
     }
 );
 
